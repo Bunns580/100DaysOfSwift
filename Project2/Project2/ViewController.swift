@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var scoreLabel: UILabel!
     
     var countries = [String]()
     var score = 0
@@ -52,10 +53,12 @@ class ViewController: UIViewController {
         if sender.tag == correctAnswer {
             title = "Correct"
             score += 1
+            scoreLabel.text = "Current score: \(score)"
         }
         else {
             title = "Wrong"
             score -= 1
+            scoreLabel.text = "Current score: \(score)"
         }
         
         
