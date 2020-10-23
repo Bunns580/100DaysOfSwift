@@ -1,13 +1,13 @@
 //
-//  Project7UITests.swift
-//  Project7UITests
+//  Project7_2UITests.swift
+//  Project7-2UITests
 //
 //  Created by Paul Bunnell on 10/23/20.
 //
 
 import XCTest
 
-class Project7UITests: XCTestCase {
+class Project7_2UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
