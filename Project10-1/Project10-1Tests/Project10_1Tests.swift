@@ -1,14 +1,14 @@
 //
-//  Project7_2Tests.swift
-//  Project7-2Tests
+//  Project10_1Tests.swift
+//  Project10-1Tests
 //
-//  Created by Paul Bunnell on 10/23/20.
+//  Created by Paul Bunnell on 11/24/20.
 //
 
 import XCTest
-@testable import Project7_2
+@testable import Project10_1
 
-class Project7_2Tests: XCTestCase {
+class Project10_1Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
