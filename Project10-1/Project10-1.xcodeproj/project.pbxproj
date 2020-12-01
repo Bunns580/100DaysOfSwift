@@ -16,6 +16,7 @@
 		800BB7E9256D5747007ACEFD /* Project10_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7E8256D5747007ACEFD /* Project10_1Tests.swift */; };
 		800BB7F4256D5747007ACEFD /* Project10_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7F3256D5747007ACEFD /* Project10_1UITests.swift */; };
 		800BB805256D58EB007ACEFD /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800BB804256D58EB007ACEFD /* PersonCell.swift */; };
+		800BB8A725755BAD007ACEFD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800BB8A625755BAD007ACEFD /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		800BB7F3256D5747007ACEFD /* Project10_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10_1UITests.swift; sourceTree = "<group>"; };
 		800BB7F5256D5747007ACEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		800BB804256D58EB007ACEFD /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		800BB8A625755BAD007ACEFD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				800BB7D1256D5745007ACEFD /* AppDelegate.swift */,
 				800BB7D3256D5745007ACEFD /* SceneDelegate.swift */,
 				800BB7D5256D5745007ACEFD /* ViewController.swift */,
+				800BB8A625755BAD007ACEFD /* Person.swift */,
 				800BB7D7256D5745007ACEFD /* Main.storyboard */,
 				800BB804256D58EB007ACEFD /* PersonCell.swift */,
 				800BB7DA256D5746007ACEFD /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800BB8A725755BAD007ACEFD /* Person.swift in Sources */,
 				800BB7D6256D5745007ACEFD /* ViewController.swift in Sources */,
 				800BB7D2256D5745007ACEFD /* AppDelegate.swift in Sources */,
 				800BB805256D58EB007ACEFD /* PersonCell.swift in Sources */,
